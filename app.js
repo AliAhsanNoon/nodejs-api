@@ -6,9 +6,6 @@ const mongoose = require("mongoose");
 
 const productRoutes = require("./api/routes/product");
 const orderRoutes = require("./api/routes/order");
-// mongoose.connect('mongodb://localhost/ECommerceDb',{ useUnifiedTopology: true,useNewUrlParser:true } , ()=>{
-//     console.log('Conntcted to Database...');
-// });
 
 mongoose
   .connect("mongodb://localhost/ECommerceDb", {
